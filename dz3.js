@@ -1,6 +1,11 @@
-let money=prompt("Ваш бюджет");
-let name=prompt("Название Вашего магазина");
+let money,name;
 
+
+function start(){
+	money=prompt("Ваш бюджет");
+	name=prompt("Название Вашего магазина");
+}
+start();
 
 let mainList ={
 	budjet: money,
@@ -18,10 +23,13 @@ if ((typeof(a))==='string' && (typeof(a)) != null && a!=' ' && a.length <20) {
 	console.log("все верно");
 	mainList.ShopGoods[i]=a; } 
 else 
-	{i=i-1;}
- 
+	{i=--i;}
+}
 alert(mainList.budjet / 30);
 
 
 console.log(mainList.ShopGoods);
 console.log(mainList);
+    
+
+

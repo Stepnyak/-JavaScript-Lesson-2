@@ -26,9 +26,12 @@ if ((typeof(a))==='string' && (typeof(a)) != null && a!=' ' && a.length <20) {
 else 
 	{i=--i;}
 }
-alert(mainList.budjet / 30);
+function dayBudjet()
+{
+alert(mainList.budjet / 30);}
 
 
+dayBudjet();
 console.log(mainList.ShopGoods);
 console.log(mainList);
     

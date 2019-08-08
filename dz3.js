@@ -12,7 +12,8 @@ let mainList ={
 	ShopName: name,
 	ShopGoods: [],
 	employers: {},
-	open: false
+	open: false,
+	tyme: false
 }
 
 for (let i=0;i<5;i++)
